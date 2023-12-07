@@ -48,6 +48,18 @@ body {
   top: 100px;
 }
 
+.return {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 0;
+  font-weight: bolder;
+  border-radius: 4px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50px;
+}
+
 .toggle:focus {
   outline: none;
 }
